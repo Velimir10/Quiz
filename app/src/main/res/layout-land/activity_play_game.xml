@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="velimir.quiz.PlayGameActivity"
+    android:background="@color/activityBackground">
+
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="363dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/startButton"
+        android:gravity="center_vertical|center"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:textColor="@color/about_textColor"
+        android:textSize="@dimen/questionTextSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_firstAnswer"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:background="@color/startButton"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="onButtonClick"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/about_textColor"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fourthAnswer"
+        app:layout_constraintEnd_toStartOf="@+id/btn_secondAnswer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_question" />
+
+    <Button
+        android:id="@+id/btn_secondAnswer"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:background="@color/startButton"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="onButtonClick"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/about_textColor"
+        app:layout_constraintBottom_toTopOf="@+id/btn_thirdAnswer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toEndOf="@+id/btn_firstAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/textView_question" />
+
+    <Button
+        android:id="@+id/btn_thirdAnswer"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@color/startButton"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="onButtonClick"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/about_textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_secondAnswer"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_secondAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/btn_secondAnswer"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <Button
+        android:id="@+id/btn_fourthAnswer"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:background="@color/startButton"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="onButtonClick"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/about_textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_firstAnswer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_firstAnswer"
+        app:layout_constraintTop_toBottomOf="@+id/btn_firstAnswer"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

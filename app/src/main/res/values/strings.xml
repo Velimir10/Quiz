@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="play">Play</string>
+    <string name="about">About</string>
+
+    <string name="quizDescription">Quiz of knowledge</string>
+    <string name="version">Version 1.38</string>
+    <string name="programming">Programming: Velimir Atanasovski</string>
+    <string name="gameDesign">Game Design: Velimir Atanasovski</string>
+    <string name="graphicDesign">Graphic Design: Velimir Atanasovski</string>
+
+
+    <string name="quiz_info">Info about quiz knowledge</string>
+    <string name="quiz_secondText">Answer the questions as fast as you can.</string>
+    <string name="quiz_thirdText">You have 5 questions about Capital Cities.</string>
+    <string name="quiz_fourthText">You have 1 live.</string>
+    <string name="quiz_fifthText">The faster you answer, the more points you earn.</string>
+
+    <string name="button_startPlayText">Start Play!</string>
+
+    <string name="correctAnswers">Correct Answers:</string>
+    <string name="incorrectAnswers">Incorrect Answers:</string>
+    <string name="scoreTextView">Score</string>
+    <string name="quiz_logo">Quiz logo</string>
+    <string name="game_over">Game Over</string>
+    <string name="replay">Replay</string>
+    <string name="exit">Exit</string>
+</resources>

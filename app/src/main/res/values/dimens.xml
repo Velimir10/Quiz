@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="about_TextSize">20sp</dimen>
+    <dimen name="btnTextView">36sp</dimen>
+    <dimen name="playButton">30sp</dimen>
+    <dimen name="score">30sp</dimen>
+    <dimen name="questionTextSize">22sp</dimen>
+    <dimen name="game_over">40sp</dimen>
+
+</resources>
